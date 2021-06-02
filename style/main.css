@@ -1,0 +1,27 @@
+body {
+	font-family: "Consolas";
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+}
+
+.menuIco {
+	width: 100px;
+	/*float: left;*/
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.logo {
+	width: 250px;
+	float: right;
+	margin-right: 35%;
+}
+
+.bodyWrapper {
+
+	margin-top: 20%;
+	text-align: center;
+}
