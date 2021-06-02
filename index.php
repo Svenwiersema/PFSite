@@ -20,6 +20,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
+		<a href="files/CurriculumVitea.pdf">Mijn CV</a>
 	</div>
 </body>
 <script type="text/javascript" src="scripts/events.js" />
