@@ -117,13 +117,41 @@ body {
 	visibility: hidden;
 }
 
-@media screen and (min-width: 800px) {
-  .title {
-		margin-top: -10%;
-		padding-bottom: 10%;
+@media screen and (min-width: 1000px) {
 
-		font-weight: bold;
-		font-size:80px;
-		color: rgba(0,0,0,255);
+	.header {
+		height: 250px;
+	}
+
+	.Dmenu {
+		visibility: visible;
+
+		list-style: none;
+
+		font-size: 24px;
+		text-align: center;
+
+		margin-top: 7%;
+		margin-right: 5%;
+	}
+
+	.menuIco {
+		visibility: hidden;
+	}
+
+  	.logo {
+		margin-right: 45%;
+	}
+
+	.bodyWrapper {
+		margin-top: 15%;
+	}
+
+	.title {
+		padding-bottom: 2%;
+	}
+
+	.paraOne {
+		padding-bottom: 2%;
 	}
 }
