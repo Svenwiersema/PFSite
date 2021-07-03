@@ -112,3 +112,7 @@ body {
 .menu a:hover {
 	color: rgba(0,38,255,255);
 }
+
+.Dmenu {
+	visibility: hidden;
+}
