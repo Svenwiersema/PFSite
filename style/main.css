@@ -15,15 +15,15 @@ body {
 }
 
 .menuIco {
-	width: 50px;
+	/*width: 50px;*/
 	/*float: left;*/
 	margin-left: 5%;
 	margin-top: 5%;
 }
 .logo {
-	width: 150px;
+	/*width: 150px;*/
 	float: right;
-	margin-right: 27%;
+	margin-right: 6em;
 }
 
 .bodyWrapper {
@@ -140,7 +140,7 @@ body {
 	}
 
   	.logo {
-		margin-right: 45%;
+		margin-right: 35em;
 	}
 
 	.bodyWrapper {
