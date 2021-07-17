@@ -24,12 +24,14 @@
 		<ul class="Dmenu">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="projects.php">Projects</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</div>
 	<div class="menu" id="menu">
 		<ul>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="projects.php">Projects</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</div>
 	<div class="projectContainer">
