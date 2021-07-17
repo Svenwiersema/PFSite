@@ -6,7 +6,7 @@ $gn = "dbu1564428";
 $ww = "Sw0652887123";
 
 // Create connection
-$conn = new mysqli($server, $gn, $ww);
+$conn = new mysqli($server, $gn, $ww, $db);
 
 // Check connection
 if ($conn->connect_error) {

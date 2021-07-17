@@ -1,3 +1,13 @@
+<?php
+
+	include "php/connection.php";
+
+	$sql = "SELECT * FROM projecten";
+
+	$result = $conn->query($sql);
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +33,29 @@
 		</ul>
 	</div>
 	<div class="projectContainer">
-		<div class="project">
+		<?php
+
+			if($result->num_rows > 0) {
+				while($row = $result->fetch_assoc()) {
+					?>
+					<div class="project">
+						<h1 class="pTitle"><?php echo $row["titel"]; ?></h1>
+						<p class="description"><?php echo $row["descriptie"]; ?></p>
+						<?php 
+						echo "<img src=\"";
+						echo $row["img"];
+						echo "\" class=\"thumbnail\">";
+						echo "<a href=\"";
+						echo $row["link"];
+						echo "\" class=\"moreBtn\" target=\"_blank\">More</a>";
+						?>
+					</div>
+					<?php 
+				}
+			}
+
+		?>
+		<!-- <div class="project">
 			<h1 class="pTitle">Meetstation</h1>
 			<p class="description">Met dit project heb ik een station gemaakt met een arduino waarbij hij de luchtvochtigheid en de temperatuur meet en aangeeft. Ik heb het zo gedaan dat je via WiFi met de arduino kan verbinden en naar de site kan om de informatie te zien</p>
 			<img src="img/weerstationThumb.jpg" class="thumbnail">
@@ -52,7 +84,7 @@
 			<p class="description">Dit is mijn eerste project wat ik heb gemaakt. Dit project heb ik gemaakt na aanleiding van mijn intake opdracht. Ik heb dit project bedacht en gemaakt om meer te leren over de arduino voordat ik met de opleiding ben begonnen. het project is digitaal helemaal uitgewerkt. Ik ben persoonlijk thuis bezig met het maken van de kluis en het inelkaar zetten.</p>
 			<img src="img/vaultThumb.png" class="thumbnail">
 			<a href="https://github.com/Svenwiersema/VaultProject" class="moreBtn" target="_blank">More</a>
-		</div>
+		</div> -->
 	</div>
 
 
@@ -64,3 +96,9 @@
 </body>
 <script type="text/javascript" src="scripts/events.js"></script>
 </html>
+
+<?php 
+
+	$conn->close();
+
+ ?>

@@ -13,7 +13,7 @@
 		<img src="img/logo.png" class="logo">
 		<ul class="Dmenu">
 			<li><a href="index.php">Home</a></li>
-			<li><a href="projects.">Projects</a></li>
+			<li><a href="projects.php">Projects</a></li>
 		</ul>
 	</div>
 	<div class="menu" id="menu">
