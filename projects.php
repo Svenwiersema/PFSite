@@ -11,14 +11,14 @@
 		<img src="img/menu.png" class="menuIco" id="menuIco">
 		<img src="img/logo.png" class="logo">
 		<ul class="Dmenu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="projects.php">Projects</a></li>
 		</ul>
 	</div>
 	<div class="menu" id="menu">
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="projects.php">Projects</a></li>
 		</ul>
 	</div>
 	<div class="projectContainer">
