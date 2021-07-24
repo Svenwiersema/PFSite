@@ -57,36 +57,6 @@
 			}
 
 		?>
-		<!-- <div class="project">
-			<h1 class="pTitle">Meetstation</h1>
-			<p class="description">Met dit project heb ik een station gemaakt met een arduino waarbij hij de luchtvochtigheid en de temperatuur meet en aangeeft. Ik heb het zo gedaan dat je via WiFi met de arduino kan verbinden en naar de site kan om de informatie te zien</p>
-			<img src="img/weerstationThumb.jpg" class="thumbnail">
-			<a href="https://github.com/Svenwiersema/Meetstation" class="moreBtn" target="_blank">More</a>
-		</div>
-		<div class="project">
-			<h1 class="pTitle">De joker app</h1>
-			<p class="description">Met dit project heb ik laten zien dat ik de basis van python goed ken. Het doel van de app is om verslaafden te helpen met het minder en/of uiteindelijk te stoppen met bijvoorbeeld het drugs gebruik.</p>
-			<img src="img/jokersThumb.png" class="thumbnail">
-			<a href="https://github.com/Svenwiersema/Jokers" class="moreBtn" target="_blank">More</a>
-		</div>
-		<div class="project">
-			<h1 class="pTitle">De die game </h1>
-			<p class="description">Dit is mijn tweede python project. Ik heb dit project gemaakt om een beetje te kijken wat je met python kan doen.</p>
-			<img src="img/diegameThumb.png" class="thumbnail">
-			<a href="https://github.com/Svenwiersema/Die-Game" class="moreBtn" target="_blank">More</a>
-		</div>
-		<div class="project">
-			<h1 class="pTitle">De window checker app</h1>
-			<p class="description">Dit is mijn eerste grote project dat ik op het REA College heb gekregen. Op het moment is het project nog niet af. Het doel van het project is om vanaf 1 plek te kunnen zien welke ramen openstaan en welke niet, zodat iemand niet het hele gebouw hoeft door te lopen om per raam te kijken. De applicatie is zo gemaakt dat het uitbreidbaar is voor meerdere functies zoals kijken voor lichten die aanstaan.</p>
-			<img src="img/placeholder.png" class="thumbnail">
-			<a href="https://github.com/Svenwiersema/WindowChecker" class="moreBtn" target="_blank">More</a>
-		</div>
-		<div class="project">
-			<h1 class="pTitle">De kluis</h1>
-			<p class="description">Dit is mijn eerste project wat ik heb gemaakt. Dit project heb ik gemaakt na aanleiding van mijn intake opdracht. Ik heb dit project bedacht en gemaakt om meer te leren over de arduino voordat ik met de opleiding ben begonnen. het project is digitaal helemaal uitgewerkt. Ik ben persoonlijk thuis bezig met het maken van de kluis en het inelkaar zetten.</p>
-			<img src="img/vaultThumb.png" class="thumbnail">
-			<a href="https://github.com/Svenwiersema/VaultProject" class="moreBtn" target="_blank">More</a>
-		</div> -->
 	</div>
 
 
