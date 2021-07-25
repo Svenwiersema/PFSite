@@ -1,0 +1,16 @@
+
+$primary: rgba(0,38,255,255);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+.menu {
+    font-size: 3em;
+
+    color: black;
+    text-decoration: none;
+}
+.menu:visited {
+    color: black;
+}
