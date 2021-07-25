@@ -1,6 +1,6 @@
 <?php 
 
-$server = "rdbms.strato.de";
+$server = "localhost";
 $db = "dbs2936143";
 $gn = "dbu1564428";
 $ww = "Sw0652887123";
