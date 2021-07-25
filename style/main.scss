@@ -14,3 +14,10 @@ $primary: rgba(0,38,255,255);
 .menu:visited {
     color: black;
 }
+.menuItem {
+    border-color: $primary;
+    color: $primary;
+}
+.h1 {
+    color: $primary;
+}
