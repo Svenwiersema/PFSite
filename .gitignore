@@ -1,2 +1,4 @@
 php/connection.php
-sass/main.scss
+style/main.scss
+prepros.config
+.sass-cache
