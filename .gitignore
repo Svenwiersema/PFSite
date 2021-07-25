@@ -1,7 +1,3 @@
-php/connection.php
-
-style/main.scss
-
 prepros.config
 .sass-cache
 package-lock.json
