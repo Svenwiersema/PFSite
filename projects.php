@@ -17,29 +17,37 @@ include "snippets/head.php";
 	<?php
 	include "snippets/header.php";
 	?>
-	<div class="projectContainer">
-		<?php
+	<div class="container my-5">
+		<div class="row">
+			<?php
 
-			if($result->num_rows > 0) {
-				while($row = $result->fetch_assoc()) {
-					?>
-					<div class="project">
-						<h1 class="pTitle"><?php echo $row["titel"]; ?></h1>
-						<p class="description"><?php echo $row["descriptie"]; ?></p>
-						<?php 
-						echo "<img src=\"";
-						echo $row["img"];
-						echo "\" class=\"thumbnail\">";
-						echo "<a href=\"";
-						echo $row["link"];
-						echo "\" class=\"moreBtn\" target=\"_blank\">More</a>";
+				if($result->num_rows > 0) {
+					while($row = $result->fetch_assoc()) {
 						?>
-					</div>
-					<?php 
+						<div class="col col-12 col-md-4 col-xl-3 mb-4 mb-md-0">
+							<div class="card">
+								<?php 
+								echo "<img src=\"";
+								echo $row["img"];
+								echo "\" class=\"thumbnail\">";
+								?>
+								<div class="card-body">
+									<h1 class="h1"><?php echo $row["titel"]; ?></h1>
+									<p><?php echo $row["descriptie"]; ?></p>
+									<?php
+										echo "<a href=\"";
+										echo $row["link"];
+										echo "\" class=\"btn btn-outline-primary\" target=\"_blank\">More</a>";
+									?>
+								</div>
+							</div>
+						</div>
+						<?php 
+					}
 				}
-			}
 
-		?>
+			?>
+		</div>
 	</div>
 
 	<?php
