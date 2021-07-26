@@ -3,7 +3,7 @@
 <?php
 include "snippets/head.php";
 ?>
-<body id="body">
+<body class="d-flex flex-column min-vh-100">
 	<?php
 	include "snippets/header.php";
 	?>
