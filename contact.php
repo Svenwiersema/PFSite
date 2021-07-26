@@ -8,6 +8,8 @@ include "snippets/head.php";
 	include "snippets/header.php";
 	?>
 
+	<script type="module" src="scripts/contact.js"></script>
+
 	<div class="bodyWrapper">
 		
 	</div>

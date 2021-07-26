@@ -17,6 +17,9 @@ include "snippets/head.php";
 	<?php
 	include "snippets/header.php";
 	?>
+
+	<script type="module" src="scripts/project.js"></script>
+
 	<div class="container my-5">
 		<div class="row">
 			<?php

@@ -7,6 +7,8 @@ include "snippets/head.php";
 	<?php
 	include "snippets/header.php";
 	?>
+
+	<script type="module" src="scripts/home.js"></script>
 	
 	<div class="container my-5">
 		<div class="row align-items-center">

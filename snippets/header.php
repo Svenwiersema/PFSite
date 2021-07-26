@@ -1,3 +1,4 @@
+<script src="scripts/events.js"></script>
 <header class="shadow">
 		<div class="contianer">
 			<a class="menu" data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu">
@@ -15,9 +16,9 @@
 				<div class="d-none d-md-inline">
 					<div class="col col-md-12">
 						<div class="btn-group mb-3">
-							<a class="btn btn-outline-primary" href="index.php">Home</a>
-							<a class="btn btn-outline-primary" href="projects.php">Projects</a>
-							<a class="btn btn-outline-primary" href="contact.php">Contact</a>
+							<a id="home" class="btn btn-outline-primary" href="index.php">Home</a>
+							<a id="projecten" class="btn btn-outline-primary" href="projects.php">Projects</a>
+							<a id="contact" class="btn btn-outline-primary" href="contact.php">Contact</a>
 						</div>
 					</div>
 				</div>
