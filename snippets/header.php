@@ -17,7 +17,7 @@
 					<div class="col col-md-12">
 						<div class="btn-group mb-3">
 							<a id="home" class="btn btn-outline-primary" href="index.php">Home</a>
-							<a id="projecten" class="btn btn-outline-primary" href="projects.php">Projects</a>
+							<a id="projecten" class="btn btn-outline-primary" href="projects.php">Projecten</a>
 							<a id="contact" class="btn btn-outline-primary" href="contact.php">Contact</a>
 						</div>
 					</div>
