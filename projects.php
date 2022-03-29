@@ -27,7 +27,7 @@ include "snippets/head.php";
 				if($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) {
 						?>
-						<div class="col col-12 col-md-4 col-xl-3 mb-4 mb-md-0">
+						<div class="card-columns">
 							<div class="card">
 								<?php 
 								echo "<img src=\"";
