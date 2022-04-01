@@ -14,21 +14,17 @@ include "snippets/head.php";
 		<form name="contactform" action="php/email.php" method="post">
 			<div class="row">
 				<div class="col col-12 col-md-6">
-					<label for="firstName" class="form-label">Voornaam</label><span><i <?php ($_POST["nameErr"] ? "class='bi bi-x wrong'" : "class='bi bi-check good'"); ?>></i></span>
-					<input type="text" class="form-control" id="firstName" name="firstname">
+					<label for="name" class="form-label">Naam</label>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Sten" pattern=[A-Z\sa-z]{3,20} required>
 					
 				</div>
-				<div class="col col-12-col-md-6">
-					<label for="lastName" class="form-label">Achternaam</label><span><i <?php ($_POST["lNameErr"] ? "class='bi bi-x wrong'" : "class='bi bi-check good'"); ?> id="validate"></i></span>
-					<input type="text" class="form-control" id="lastName" name="lastname">
+				<div class="col col-12 col-md-6">
+					<label for="email" class="form-label">E-mail</label>
+					<input type="email" class="form-control" id="email" name="email" placeholder="sten@example.com" required>
 				</div>
 				<div class="col col-12">
-					<label for="email" class="form-label">E-mail</label><span><i class="bi bi-x wrong" id="validateEmail"></i></span>
-					<input type="email" class="form-control" id="email" name="email">
-				</div>
-				<div class="col col-12">
-					<label for="message" class="form-label">Bericht</label><span><i class="bi bi-x wrong" id="validate"></i></span>
-					<textarea class="form-control" id="message" name="message" rows="10"></textarea>
+					<label for="message" class="form-label">Bericht</label>
+					<textarea class="form-control" id="message" name="message" rows="10" required></textarea>
 				</div>
 				<div class="col col-12 mt-4 text-center">
 					<button type="submit" class="btn btn-lg btn-outline-primary">Verstuur</button>
