@@ -32,7 +32,7 @@ if($_POST) {
     $headers  = "MIME-Version: 1.0" . "\r\n"
     ."Content-type: text/html; charset=utf-8" . "\r\n"
     ."From: " .$email. "\r\n";
-    if(mail("contact@robosten.com", "Contact From", $emailBody, $headers)) {
+    if(mail("contact@robosten.nl", "Contact From", $emailBody, $headers)) {
         header("Location: ../contact.php");
     } else {
         echo("oops, something went wrong.");
