@@ -3,4 +3,4 @@ prepros.config
 package-lock.json
 package.json
 node_modules
-connection.php
+php/connection.php
