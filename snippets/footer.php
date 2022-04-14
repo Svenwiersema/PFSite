@@ -19,6 +19,7 @@
           <p>
             for all your robotic needs
           </p>
+          <a href="https://buymeacoffee.com/?via=RoboS" class="coffeeLink"><img class="coffeeImg" src="img/bmc-button.png" alt="Buy me a coffee"></a>
         </div>
         <!-- Grid column -->
 
