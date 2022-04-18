@@ -14,12 +14,11 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-		  <i class="bi bi-gem me-3"></i>RoboSten
+		      <i class="bi bi-gem me-3"></i>RoboSten
           </h6>
           <p>
             for all your robotic needs
           </p>
-          <a href="https://buymeacoffee.com/?via=RoboS" class="coffeeLink"><img class="coffeeImg" src="img/bmc-button.png" alt="Buy me a coffee"></a>
         </div>
         <!-- Grid column -->
 
