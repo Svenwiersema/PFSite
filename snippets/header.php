@@ -9,7 +9,7 @@
 
 			<div class="row text-center">
 				<div class="col col-md-12 mx-auto">
-					<img src="img/logo.png" class="logo">
+					<img src="img/nlogo.png" class="logo">
 				</div>
 
                 <!-- desktop menu -->

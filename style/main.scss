@@ -1,5 +1,7 @@
 
-$primary: rgba(0,38,255,255);
+$old-primary: rgba(0,38,255,255);
+$primary: rgba(95,127,255,255);
+$bgroundColor: rgba(242,243,244,255);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -14,6 +16,7 @@ html  {
 }
 body {
     overflow-x: hidden;
+    background-color: $bgroundColor;
 }
 
 .menu {
