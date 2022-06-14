@@ -21,13 +21,13 @@ include "snippets/head.php";
 	<script type="module" src="scripts/project.js"></script>
 
 	<div class="container my-5">
-		<div class="row" data-masonry='{"percentPosition": true,  "itemSelector": ".col" }'>
+		<div class="row grid" id="masonry-grid">
 			<?php
 
 				if($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) {
 						?>
-						<div class="col col-sm-12 col-md-4 col-lg-3 project-card">
+						<div class="col col-sm-12 col-md-4 col-lg-3 project-card grid-item">
 							<div class="card">
 								<?php 
 								echo "<img src=\"";
