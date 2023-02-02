@@ -17,7 +17,7 @@ include "snippets/head.php";
 			</div>
 			<div class="col col-12 col-md-6 px-5 px-md-10 px-lg-20 mt-5 text-center text-md-start">
 				<p>
-					Mijn naam is Sven Wiersema en ik ben 22. Welkom op mijn portfolio site. Ik studeer aan het REA college in Groningen, en ik doe de robotica opleiding. Ik studeer daar nu een jaar. Ik heb voor deze opleiding verschillende andere opleidingen gedaan van netwerk beheer tot game development, dus je kan wel zeggen dat ik voor vrij veel programmeer talen een basis heb. Ik heb kennis van HTML tot aan JAVA, en via het menu kan je een lijst bekijken van al mijn projecten die ik heb gemaakt in de tijd die ik op het REA college zit.
+				Ik heet Sven en ik ben 23 jaar oud. Ik woon nog thuis bij mijn ouders in Loppersum. Ik vind het leuk om te gamen, programmeren en dingen ontwerpen met Solidworks voor mijn 3D printer. Ik ben een introvert persoon. Ik ben iemand die altijd eerst de kat uit de boom kijkt. Ik doe het goed in een omgeving waarin ik weet wat er van mij word verwacht en duidelijke instructies krijg.
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
